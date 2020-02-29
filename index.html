@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    
+    <title>Attack Video Game</title>
+</head>
+<body>
+
+    <header>
+        <h1>
+            Attack Video Game
+        </h1>
+    </header>
+
+    <main>
+        <div class="wrap">
+            <div class="square">
+                <h2>
+                    Link 
+                </h2>
+                <div id="imgc1"></div>
+                <!-- <img class="character" src="img/link.png" alt=""> -->
+                <br>
+                <button id="btnC1" onclick="c1.attack(c2,select())">
+                    Attack
+                </button>
+                <p>
+                    Information
+                    <div id="c1">
+
+                    </div>
+                </p>
+            </div>
+            <div class="square">
+                <h2>
+                    DK 
+                </h2>
+                <div id="imgc2"></div>
+                <!-- <img class="character" src="img/link.png" alt=""> -->
+                <br>
+                <button id="btnC2" onclick="c2.attack(c1,select())">
+                    Attack
+                </button>
+                <p>
+                    Information
+                    
+                    <div id="c2">
+
+                    </div>
+                </p>
+            </div>
+            
+        </div>
+        <div class="console" id="console">
+            <div id="Actions">
+                Actions...
+            </div>
+            <table class="tableConsole" width="100%">
+                <tr>
+                    <td colspan="2" id="itemTittle" align="center">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td id="itemData" width="50%" align="right">
+                    </td>
+                    <td id="itemImage" width="50%" align="left">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        All the rights reserved &copy; Efren Castillo
+    </footer>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
